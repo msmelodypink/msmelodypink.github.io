@@ -1,0 +1,67 @@
+html {
+    background: #56A8B9;
+    background-image: linear-gradient(180deg, rgb(86, 168, 185) 0%, rgb(51, 92, 100) 100%);
+    background-repeat:repeat;
+    background-size: auto;
+}
+
+nav {
+    font-family: Montserrat;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+    
+header{
+    text-align: center;
+    border-image: url(finalproject.css);
+}
+
+body {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;    
+    text-align: center;
+}
+
+a {
+   color: aqua;
+   letter-spacing: 5px;
+    text-decoration: none;
+}
+
+a:visited, a:link {
+    padding: 5px 5px;
+}
+a:hover {
+    color: orange;
+}
+
+
+a:active {
+    color: tan;
+}
+
+article{
+    color: orange;
+    font-family: Josefin Sans;
+    font-size: 12pt;
+    text-align: justify;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+img {
+    border-width: thick;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
