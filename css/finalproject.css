@@ -18,14 +18,14 @@ header {
 }
 
 section {
-    padding: 0px 100px 100px 100px;
+    margin-bottom: 50;
 }
 
 body {
     width: 960px;
-  
-    
-
+    margin: auto;
+    margin-top: 50px; 
+    margin-bottom: 50px;
 }
 
 a {
