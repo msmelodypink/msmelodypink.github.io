@@ -10,21 +10,22 @@ nav {
     font-size: 12pt;
     color: white;
     text-align: center;
-    margin-top: 25px;
-    
 }
     
-header{
+header {
     text-align: center;
-    border-image: url(finalproject.css);
+    
+}
+
+section {
+    padding: 0px 100px 100px 100px;
 }
 
 body {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;    
-    text-align: center;
+  
+    
+
 }
 
 a {
@@ -47,7 +48,7 @@ a:active {
 
 article{
     color: orange;
-    font-family: Josefin Sans;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 12pt;
     text-align: justify;
     width: 600px;
@@ -55,9 +56,6 @@ article{
     margin-bottom: 100px;
 }
 
-img {
-    border-width: thick;
-}
 .center {
     display: block;
     margin-left: auto;
