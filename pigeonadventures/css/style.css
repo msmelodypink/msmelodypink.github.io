@@ -49,6 +49,7 @@ body {
     font-weight: 100;
     color: #404547;
     background-image: linear-gradient(#404547, #4293c9);
+    background-repeat: no-repeat;
 }
 
 main {
