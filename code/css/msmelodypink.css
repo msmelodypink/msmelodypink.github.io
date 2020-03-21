@@ -53,19 +53,16 @@ a {
     text-align: center;
 }
 
-a:hover {
-    color: hotpink;
-}
-
 a:link {
-
-    color: white;
+    color: black;
 }
-
-a:any-link {
+a:visited {
     color: black;
 }
 
+a:hover {
+    color: red;
+}
 
 section {}
 
@@ -84,7 +81,8 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .leftcolumn {
