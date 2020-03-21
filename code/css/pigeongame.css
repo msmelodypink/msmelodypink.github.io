@@ -111,15 +111,15 @@ button {
 }
 
 .bullseye {
-    cursor: url(../images/bullseyeicon.png), auto;
+    cursor: url(../../assets/images/Game/bullseyeicon.png), auto;
 }
 
 .deathemoji {
-    cursor: url(../images/deathemoji.png), auto;
+    cursor: url(../../assets/images/Game/deathemoji.png), auto;
 }
 
 .heart {
-    cursor: url(../images/heart.png), auto;
+    cursor: url(../../assets/images/Game/heartemoji.png), auto;
 }
 
 .responsive {
