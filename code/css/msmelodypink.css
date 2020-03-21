@@ -1,0 +1,176 @@
+/* == typography == */
+
+nav {
+    font-size: 12pt;
+    font-family: monospace;
+}
+
+
+/* == backgrounds == */
+
+body {
+    color: black;
+    background-color: white;
+    margin: auto;
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 900px;
+    width: 1440px;
+
+}
+
+main {
+
+    margin: auto;
+    height: 850px;
+    width: 1440px;
+
+}
+
+header {}
+
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: none;
+    padding right: none;
+    text-align: center;
+
+
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:link {
+
+    color: white;
+}
+
+a:any-link {
+    color: black;
+}
+
+
+section {}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+.background {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.leftcolumn {
+    float: left;
+    width: 30%;
+    position: relative;
+    top: 500px;
+    float: left;
+    width: 30%;
+    position: relative;
+    top: 425px;
+    left: 100px;
+}
+
+.rightcolumn {
+    float: right;
+    width: 30%;
+    position: relative;
+    top: 250px;
+    right: 200px;
+
+}
+
+.printcolumn {
+    float: right;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    right: 500px;
+}
+
+.clear {
+    clear: both;
+    padding-left: 10px;
+    padding-top: 0px;
+
+}
+
+.floatleft {
+    float: left;
+    background-color: transparent;
+    border: none;
+    padding: 0px 0px;
+    position: relative;
+    border-radius: 9px;
+}
+
+.floatright {
+    float: left;
+    background-color: transparent;
+    border: none;
+    padding: 0px 0px;
+    position: relative;
+    bottom: 500px;
+    left: 500px;
+    border-radius: 9px;
+}
+
+.bottomnav {
+    background-color: transparent;
+    border: none;
+    padding: 0px 0px;
+}
+
+.leftbutton {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+}
+
+.rightbutton {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 500px;
+    left: 500px;
+    border-radius: 9px;
+}
+
+.picture {
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 300px;
+
+}
