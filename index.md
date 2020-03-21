@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+
+    <link rel="stylesheet" href="../../GitHub/msmelodypink.github.io/code/css/msmelodypink.css">
+
+</head>
+
+<body style="background-image: url(../../assets/images/GitHub/SFBridge.jpg)">
+
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html"> Home </a> </li>
+                <li> <a href="about.html"> About </a></li>
+                <li> <a href="design.html"> Design </a></li>
+                <li> <a href="visualmedia.html"> Visual Media </a></li>
+                <li> <a href="contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="middlecolumn">
+            <button class="floatleft"> <a href="home.html"> <img src="../../assets/images/GitHub/MRLogo.svg" alt="photos" style="width:200px;height:200px;border:0;"> </a> </button>
+
+            <section class="clear">
+                <p> Melody Rosado | 
+         Designer </p>
+            </section>
+
+        </section>
+
+
+
+        <div>
+
+
+
+        </div>
+
+
+
+
+    </main>
+</body>
+
+<footer>
+    <ul>
+        <button class="bottomnav"> <a href="https://www.facebook.com/msmelodypink"> <img src="../../assets/icons/facebook.png" alt="music" style="width:25x;height:25px;border:0;"> </a> </button>
+
+        <button class="bottomnav"> <a href="https://www.instagram.com/msmelodypink/?hl=en"> <img src="../../assets/icons/instagram.png" alt="music" style="width:25x;height:25px;border:0;"> </a> </button>
+
+        <button class="bottomnav"> <a href="https://www.linkedin.com/in/melody-rosado-66884232/"> <img src="../../assets/icons/linkedin.png" alt="music" style="width:25x;height:25px;border:0;"> </a> </button>
+    </ul>
+    <p>
+        Copyright Melody Rosado
+    </p>
+
+</footer></html>
