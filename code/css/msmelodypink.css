@@ -46,6 +46,7 @@ footer {
     padding: 5px;
     text-align: center;
     clear: both;
+    position: static;
 }
 
 a {
