@@ -14,10 +14,14 @@ body {
     background-color: black;
     margin: auto;
     font-family: monospace;
+
+
 }
 
-body, html {
+body,
+html {
     height: 100%;
+    width: 100%;
 
 }
 
@@ -26,24 +30,30 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 main {
-   height: 100%;
-   
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 nav {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: none;
-    padding right: none;
+    padding: 10px;
+   
     text-align: center;
 }
 
-footer {
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
     text-align: center;
-    clear: both;
+    padding: 5px;
 }
 
 a {
@@ -78,24 +88,26 @@ li {
 
 .leftcolumn {
     float: left;
-    width: 30%;
-    position: relative;
-    top: 700px;
+    flex: 30%;
+    position: fixed;
+    bottom: 300px;
     left: 100px;
+    height: auto;
+
 }
 
 .rightcolumn {
     float: right;
     width: 30%;
-    position: relative;
-    top: 250px;
-    right: 200px;
+    position: fixed;
+    top: 150px;
+    right: 300px;
 }
 
 .printcolumn {
     float: right;
     width: 30%;
-    position: relative;
+    position: fixed;
     right: 500px;
     top: 100px;
 }
