@@ -17,8 +17,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     height: 900px;
-    width: 1440px;
-
+    width: 1440px;    
 }
 
 main {
@@ -26,11 +25,7 @@ main {
     margin: auto;
     height: 850px;
     width: 1440px;
-
 }
-
-header {}
-
 
 nav {
     padding-top: 20px;
@@ -38,16 +33,11 @@ nav {
     padding-left: none;
     padding right: none;
     text-align: center;
-
-
 }
 
 footer {
-    padding: 100px;
     text-align: center;
     clear: both;
-    position: static;
-    padding-top: 300px;
 }
 
 a {
@@ -102,7 +92,6 @@ li {
     position: relative;
     top: 250px;
     right: 200px;
-
 }
 
 .printcolumn {
@@ -117,7 +106,6 @@ li {
     clear: both;
     padding-left: 10px;
     padding-top: 0px;
-
 }
 
 .floatleft {
@@ -169,7 +157,6 @@ li {
     border-color: black;
     border-width: 10px;
     width: 300px;
-
 }
 
 .brands {
