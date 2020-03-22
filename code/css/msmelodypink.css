@@ -25,6 +25,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 main {
     margin: auto;
     height: 90%;
@@ -48,19 +49,13 @@ a {
     text-align: center;
 }
 
-a:link {
-    color: black;
-}
-
-a:visited {
+a:link, a:visited {
     color: black;
 }
 
 a:hover {
     color: red;
 }
-
-section {}
 
 ul {
     list-style-type: none;
