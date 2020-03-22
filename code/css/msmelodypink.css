@@ -16,8 +16,7 @@ body {
     font-family: monospace;
 }
 
-body,
-html {
+body, html {
     height: 100%;
 
 }
@@ -27,14 +26,10 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: solid;
-    border-color: yellow;
 }
 
 main {
    height: 100%;
-    border: solid;
-    border-color: hotpink;
    
 }
 
@@ -44,8 +39,6 @@ nav {
     padding-left: none;
     padding right: none;
     text-align: center;
-    border: solid;
-    border-color: white;
 }
 
 footer {
