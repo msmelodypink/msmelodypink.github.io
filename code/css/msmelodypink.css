@@ -1,7 +1,7 @@
 /* == typography == */
 
-nav {
-    font-size: 12pt;
+nav,figcaption {
+    font-size: 9pt;
     font-family: monospace;
 }
 
@@ -15,20 +15,24 @@ body {
     font-family: monospace;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  
-     
-
+    background-size: cover;
+    height: 900px;
+    width: 1440px;
 }
 
 main {
 
-    margin: auto; 
+    margin: auto;
+    height: 850px;
+    width: 1440px;
+}
+
+nav {
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: none;
     padding right: none;
     text-align: center;
-    height: 900px;
 }
 
 footer {
@@ -75,7 +79,7 @@ li {
     float: left;
     width: 30%;
     position: relative;
-    top: 400px;
+    top: 700px;
     left: 100px;
 }
 
@@ -125,7 +129,6 @@ li {
     background-color: transparent;
     border: none;
     padding: 0px 0px;
-    text-align: center;
 }
 
 .leftbutton {
