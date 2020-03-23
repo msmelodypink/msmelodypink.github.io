@@ -6,23 +6,18 @@ figcaption {
     font-family: monospace;
 }
 
-
-/* == backgrounds == */
-
 body {
     color: white;
     background-color: black;
     margin: auto;
     font-family: monospace;
-
-
 }
 
-body,
-html {
+/* == backgrounds == */
+
+body,html {
     height: 100%;
     width: 100%;
-
 }
 
 .bg {
@@ -30,14 +25,12 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 main {
     height: 70%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 nav {
@@ -94,6 +87,14 @@ li {
     left: 100px;
     height: auto;
 
+}
+
+.polaroidcolumn {
+    float: right;
+    width: 30%;
+    position: fixed;
+    top: 50px;
+    right: 300px;
 }
 
 .rightcolumn {
@@ -171,6 +172,7 @@ li {
 
 .brands {
     width: 300px;
+    padding: 15px;
 }
 
 .polaroid {
