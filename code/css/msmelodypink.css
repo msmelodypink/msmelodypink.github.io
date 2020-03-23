@@ -10,7 +10,7 @@ figcaption {
 /* == backgrounds == */
 
 body {
-    color: black;
+    color: white;
     background-color: black;
     margin: auto;
     font-family: monospace;
@@ -42,7 +42,6 @@ main {
 
 nav {
     padding: 10px;
-   
     text-align: center;
 }
 
@@ -51,9 +50,10 @@ nav {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: black;
+    color: white;
     text-align: center;
     padding: 5px;
+    background-color: black;
 }
 
 a {
@@ -63,7 +63,7 @@ a {
 
 a:link,
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
