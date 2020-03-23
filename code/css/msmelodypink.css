@@ -1,7 +1,6 @@
 /* == typography == */
 
-nav,
-figcaption {
+nav,figcaption {
     font-size: 9pt;
     font-family: monospace;
 }
@@ -187,3 +186,4 @@ li {
     text-align: center;
     padding: 10px 20px;
 }
+
