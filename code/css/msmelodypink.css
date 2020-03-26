@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 /* Style the body */
@@ -11,6 +11,7 @@ body {
     font-family: monospace;
     font-size: 10pt;
     height: 100%;
+    color: white;
 }
 
 /* Header/logo Title */
@@ -38,7 +39,7 @@ main {
 
 /* Change color on hover */
 .navbar a:hover {
-    color: red;
+    color: hotpink;
 }
 
 /* Column container */
