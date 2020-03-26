@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 /* Style the body */
@@ -55,6 +55,11 @@ main {
 .navbar a:hover {
     color: red;
 }
+
+.whitenavbar a:hover {
+    color: red;
+}
+
 
 /* Column container */
 .row {
