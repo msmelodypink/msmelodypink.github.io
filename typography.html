@@ -2,61 +2,59 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Tyopgraphy
+    <title> Typography
     </title>
-
-    <link rel="stylesheet" href="code/css/msmelodypink.css">
+    <link rel="stylesheet" href="msmelodypink/code/css/msmelodypink.css">
 </head>
 
-<body style="background-image: url(assets/images/GitHub/blackTypography.jpg)" class="bg">
+<body>
+    <main style="background-image: url(msmelodypink/assets/images/GitHub/blackTypography.jpg)">
+        <!-- Navigation Bar -->
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="about.html"> About </a></li>
+                    <li> <a href="design.html"> Design </a></li>
+                    <li> <a href="visualmedia.html"> Visual Media </a></li>
+                    <li> <a href="contact.html"> Contact </a></li>
+                </ul>
+            </nav>
+        </div>
 
-    <header>
-       <nav>
-            <ul>
-                <li> <a href="index.html"> Home </a> </li>
-                <li> <a href="about.html"> About </a></li>
-                <li> <a href="design.html"> Design </a></li>
-                <li> <a href="visualmedia.html"> Visual Media </a></li>
-                <li> <a href="contact.html"> Contact </a></li>
-            </ul>
-        </nav>
-    </header>
+        <!-- The flexible grid (content) -->
+        <div class="row">
+            <div class="side">
+                <div style="height:400px;">
+                </div>
+                <button class="floatright"> <a href="brands.html"> <img src="msmelodypink/assets/icons/whitebrands.png" alt="photos" style="width:100px;height:100px;border:0;"> </a> </button>
+                <button class="floatright"> <a href="mixedmedia.html"> <img src="msmelodypink/assets/icons/whitemixedmedia.png" alt="videos" style="width:100px;height:100px;border:0;"> </a> </button>
+            </div>
+            <div class="main">
+                <div class="fakeimg" style="width:400px;">
+                    <article> <object width="400" height="300" data="msmelodypink/assets/documents/designnow.pdf"></object>
+                        <p> Mockup magazine featuring designer April Greiman. </p>
+                    </article>
+                    <article>
+                        <object width="400" height="300" data="msmelodypink/assets/documents/pigeongame.pdf"></object>
+                        <p> Planning for coding a 'choose you own adventure' game titled "Gideon Adventures."
+                    </article>
+                </div>
+            </div>
 
-    <main>
-
-        <section class="leftcolumn">
-            <button class="floatleft"> <a href="brands.html"> <img src="assets/icons/whitebrands.png" alt="Brands" style="width:100px;height:100px;border:0;"> </a> </button>
-
-            <button class="floatleft"> <a href="mixedmedia.html"> <img src="assets/icons/whitemixedmedia.png" alt="Brands" style="width:100px;height:100px;border:0;"> </a> </button>
-        </section>
-
-        <div class="printcolumn">
-            <article> <object width="450" height="300" data="assets/documents/designnow.pdf"></object>
-
-                <p> Mockup magazine featuring designer April Greiman. </p>
-            </article>
-
-            <article>
-                <object width="450" height="300" data="assets/documents/pigeongame.pdf"></object>
-                <p> Planning for coding a 'choose you own adventure' game titled "Gideon Adventures."
-            </article>
-
+            <!-- Footer -->
+            <div class="footer">
+                <ul>
+                    <li> <button class="bottomnav"> <a href="https://www.facebook.com/msmelodypink" target="_blank"> <img src="msmelodypink/assets/icons/whitefacebook.png" alt="Facebook" style="width:25x;height:25px;border:0;"> </a> </button> </li>
+                    <li> <button class="bottomnav"> <a href="https://www.instagram.com/msmelodypink/?hl=en" target="_blank"> <img src="msmelodypink/assets/icons/whiteinstagram.png" alt="Instagram" style="width:25x;height:25px;border:0;"> </a> </button></li>
+                    <li> <button class="bottomnav"> <a href="https://www.linkedin.com/in/melody-rosado-66884232/" target="_blank"> <img src="msmelodypink/assets/icons/whitelinkedin.png" alt="Linked In" style="width:25x;height:25px;border:0;"> </a> </button></li>
+                </ul>
+                <p>
+                    © Copyright 2020 Melody Rosado
+                </p>
+            </div>
         </div>
     </main>
-
-
- <div class="footer">
-    <ul>
-        <li> <button class="bottomnav"> <a href="https://www.facebook.com/msmelodypink"> <img src="assets/icons/whitefacebook.png" alt="music" style="width:25x;height:25px;border:0;"> </a> </button> </li>
-
-        <li> <button class="bottomnav"> <a href="https://www.instagram.com/msmelodypink/?hl=en"> <img src="assets/icons/whiteinstagram.png" alt="music" style="width:25x;height:25px;border:0;"> </a> </button></li>
-
-        <li> <button class="bottomnav"> <a href="https://www.linkedin.com/in/melody-rosado-66884232/"> <img src="assets/icons/whitelinkedin.png" alt="music" style="width:25x;height:25px;border:0;"> </a> </button></li>
-    </ul>
-    <p>
-        © Copyright 2020 Melody Rosado
-    </p>
-    </div>
 </body>
+
 </html>
