@@ -26,6 +26,14 @@ body {
     margin-right: auto;
 }
 
+footer {
+    font-family: Montserrat;
+    font-size: 12pt;
+    color: aqua;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 a {
    color: aqua;
    letter-spacing: 5px;
