@@ -279,6 +279,10 @@ footer {
 }
 
 
-.logo {
-    width: 100%;
+.mrlogo {
+    width: 30%;
+}
+
+.melodylogo{
+    width: 70%;
 }
