@@ -19,7 +19,6 @@ body {
     color: white;
 }
 
-
 footer {
     color: white;
     font-size: 11px;
@@ -45,7 +44,6 @@ body {
     position: relative;
 
     /* border-color: 5px solid hotpink; */
-
 }
 
 object {
@@ -84,12 +82,16 @@ button {
 }
 
 .caption {
-    width: 400px;
-    padding-left: 15px;
-
-
+    width: 50%;
+    padding: 5px;
+    float: left;
 }
 
+.captionprint {
+    width: 300px;
+    padding-left: 15px;
+    float: left;
+}
 nav {
     text-align: center;
 
@@ -123,13 +125,12 @@ li {
 }
 
 .mixedmedia {
-    width: 150px;
+    
+    width: 100px;
+    height: auto;
     float: left;
     clear: right;
     display: inline-block;
-    max-width: 100%;
-    height: auto;
-
 }
 
 
@@ -174,6 +175,25 @@ footer {
 
 }
 
+.inside {
+    
+    width: 450px;
+    height: auto;
+    /*    border: 1px solid hotpink;*/
+    float: right;
+    clear: both;
+    border: 1px solid hotpink;
+
+}
+
+.mixedcolumn {
+    height: 600px;
+    width: 300px;
+    padding: 20px;
+    float: left;
+    clear: right;
+    
+}
 
 .top {
     height: 30%;
@@ -210,9 +230,6 @@ footer {
     height: 60%;
     border-radius: 12%;
     float: right;
-    
-    
-
 }
 
 .leftfloat {
@@ -223,17 +240,30 @@ footer {
     float: right;
 }
 
-.thumbnail {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-}
-
-.thumbnail img:hover {
+.mixedmedia img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
+.mixedmedia {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    float: left;
+    clear: none;
+    
+}
+
+.digitalskills img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.digitalskills {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 80%;
+}
 
 .socialmedia {
     width: 25px;
@@ -252,7 +282,7 @@ footer {
 }
 
 .brands {
-    width: 215px;
+    width: 60%;
     height: auto;
     padding: 10px;
     float: left;
@@ -283,6 +313,6 @@ footer {
     width: 30%;
 }
 
-.melodylogo{
+.melodylogo {
     width: 70%;
 }
