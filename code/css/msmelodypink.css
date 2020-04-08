@@ -214,8 +214,11 @@ footer {
     height: 86%;
     padding: 20px;
     padding-top: 100px;
+    /*    border: solid 1px green;*/
+}
 
-
+.middlebottom {
+    height: 86%;
     /*    border: solid 1px green;*/
 }
 
